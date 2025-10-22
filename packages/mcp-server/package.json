@@ -8,10 +8,10 @@
   "type": "commonjs",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stainless-sdks/claude-typescript.git",
+    "url": "git+https://github.com/Kappasig920/mcp-server-deep-research.git",
     "directory": "packages/mcp-server"
   },
-  "homepage": "https://github.com/stainless-sdks/claude-typescript/tree/main/packages/mcp-server#readme",
+  "homepage": "https://github.com/Kappasig920/mcp-server-deep-research/tree/main/packages/mcp-server#readme",
   "license": "Apache-2.0",
   "packageManager": "yarn@1.22.22",
   "private": false,
