@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.1.2 (2025-10-22)
+
+Full Changelog: [v1.1.1...v1.1.2](https://github.com/Kappasig920/mcp-server-deep-research/compare/v1.1.1...v1.1.2)
+
+### Chores
+
+* update SDK settings ([a24277a](https://github.com/Kappasig920/mcp-server-deep-research/commit/a24277acf98e2cfc1411b351ea30664a9cd814cb))
+
 ## 1.1.1 (2025-10-22)
 
 Full Changelog: [v0.0.1...v1.1.1](https://github.com/Kappasig920/mcp-server-deep-research/compare/v0.0.1...v1.1.1)
