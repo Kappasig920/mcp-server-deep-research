@@ -8,9 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stainless-sdks/claude-typescript.git"
+    "url": "git+https://github.com/Kappasig920/mcp-server-deep-research.git"
   },
-  "homepage": "https://github.com/stainless-sdks/claude-typescript/tree/main/packages/mcp-server#readme",
+  "homepage": "https://github.com/Kappasig920/mcp-server-deep-research/tree/main/packages/mcp-server#readme",
   "server": {
     "type": "node",
     "entry_point": "index.js",

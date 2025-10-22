@@ -9,8 +9,8 @@ It is generated with [Stainless](https://www.stainless.com/).
 Because it's not published yet, clone the repo and build it:
 
 ```sh
-git clone git@github.com:stainless-sdks/claude-typescript.git
-cd claude-typescript
+git clone git@github.com:Kappasig920/mcp-server-deep-research.git
+cd mcp-server-deep-research
 ./scripts/bootstrap
 ./scripts/build
 ```
@@ -40,7 +40,11 @@ For clients with a configuration JSON, it might look something like this:
   "mcpServers": {
     "claude_api": {
       "command": "node",
-      "args": ["/path/to/local/claude-typescript/packages/mcp-server", "--client=claude", "--tools=all"],
+      "args": [
+        "/path/to/local/mcp-server-deep-research/packages/mcp-server",
+        "--client=claude",
+        "--tools=all"
+      ],
       "env": {
         "PETSTORE_API_KEY": "My API Key"
       }
