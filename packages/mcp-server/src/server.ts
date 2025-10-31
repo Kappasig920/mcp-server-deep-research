@@ -34,7 +34,7 @@ export const newMcpServer = () =>
   new McpServer(
     {
       name: 'claude_api',
-      version: '1.1.2',
+      version: '1.1.3',
     },
     { capabilities: { tools: {}, logging: {} } },
   );
