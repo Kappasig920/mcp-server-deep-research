@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.1.3 (2025-10-31)
+
+Full Changelog: [v1.1.2...v1.1.3](https://github.com/Kappasig920/mcp-server-deep-research/compare/v1.1.2...v1.1.3)
+
+### Bug Fixes
+
+* **mcpb:** pin @anthropic-ai/mcpb version ([472c1c2](https://github.com/Kappasig920/mcp-server-deep-research/commit/472c1c213006fedb9a6c4b16dd2f08bfd7115139))
+
 ## 1.1.2 (2025-10-22)
 
 Full Changelog: [v1.1.1...v1.1.2](https://github.com/Kappasig920/mcp-server-deep-research/compare/v1.1.1...v1.1.2)
