@@ -1,7 +1,7 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import { maybeFilter } from 'claude-mcp/filtering';
-import { Metadata, asTextContentResult } from 'claude-mcp/tools/types';
+import { isJqError, maybeFilter } from 'claude-mcp/filtering';
+import { Metadata, asErrorResult, asTextContentResult } from 'claude-mcp/tools/types';
 
 import { Tool } from '@modelcontextprotocol/sdk/types.js';
 import Claude from 'claude';
@@ -61,7 +61,14 @@ export const tool: Tool = {
 
 export const handler = async (client: Claude, args: Record<string, unknown> | undefined) => {
   const { jq_filter, ...body } = args as any;
-  return asTextContentResult(await maybeFilter(jq_filter, await client.users.create(body)));
+  try {
+    return asTextContentResult(await maybeFilter(jq_filter, await client.users.create(body)));
+  } catch (error) {
+    if (error instanceof Claude.APIError || isJqError(error)) {
+      return asErrorResult(error.message);
+    }
+    throw error;
+  }
 };
 
 export default { metadata, tool, handler };
